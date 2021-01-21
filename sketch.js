@@ -62,6 +62,7 @@ function draw() {
 
 	if(keyDown(DOWN_ARROW)) {
 	Matter.Body.setStatic(packageBody,false);
+
 	}
 		if(keyDown(RIGHT_ARROW)) {
 		helicopterSprite.velocityX=2;
